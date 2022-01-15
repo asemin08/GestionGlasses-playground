@@ -15,4 +15,4 @@
         name: "docker-compose"
         state: "present"
   roles:
-  - asemin08.gestion_glasses_role
+  - asemin08.gestionglasses_role
