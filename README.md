@@ -1,5 +1,16 @@
-# GestionGlasses-playground
-Gestion glasses ansible playground
+GestionGlasses-playground
+=========
+
+## Projet
+
+Application qui permet à un opticien de gérer son stock de lunettes.
+
+Ce projet à été réalisé dans le cadre d'une formation à l'ENSUP. Cette formation avait pour objectif la découverte de Spring et Spring Framework.
+
+Ce projet va nous permettre de se connecter sur un hôte et d'installer les dépendances utiles pour lancer notre rôles contenant notre application Gestion Glasses.
+
+Ce projet est utilisé par le script Terraform pour administrer les ressources créées.
+
 ---
 ## Liste des projets
 
