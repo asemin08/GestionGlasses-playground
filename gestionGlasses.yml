@@ -1,0 +1,27 @@
+---
+- hosts: all
+  become: true
+  pre_tasks:
+    - name: install dependencies
+      apt:
+        name: "git"
+        state: "present"
+    - name: install dependencies
+      apt:
+        name: "docker"
+        state: "present"
+    - name: install dependencies
+      apt:
+        name: "docker-compose"
+        state: "present"
+
+    # - name: "download Python-pip for docker module"
+    #   get_url:
+    #     url: https://bootstrap.pypa.io/pip/2.7/get-pip.py
+    #     dest: /tmp/get-pip.py
+    # - name: "install python-pip"
+    #   command: python2.7 /tmp/get-pip.py
+    # - name: Install docker python
+    #   pip: name=docker-py
+  roles:
+  - asemin08.gestion_glasses_role
