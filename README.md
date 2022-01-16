@@ -12,6 +12,13 @@ Ce projet va nous permettre de se connecter sur un hôte et d'installer les dép
 Ce projet est utilisé par le script Terraform pour administrer les ressources créées.
 
 ---
+
+## Lien vers le github pour le déploiement sur AWS de l'application
+
+[Projet avec déploiement sur AWS](https://github.com/asemin08/GestionGlasses-terraform)
+
+---
+
 ## Liste des projets
 
 Nom du projet | Description | Lien
